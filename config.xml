@@ -2,8 +2,8 @@
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.themillionandone.pocket_battle" version = "0.0.1">
-  <name>pocket_battle</name>
-  <description>Very first version of the Pocket Battle game, really just a proof of concept.</description>
+  <name>Pocket Battle</name>
+  <description>Is that a battle in your pocket or are you just happy to see me?</description>
   <author href="http://themillionandone.com" email="bruce@themillionandone.com">PhoneGap Team</author>
 
   <!--
