@@ -35,6 +35,7 @@
       <div id="deviceready" class="blink">
         <p class="event listening">Connecting to Device</p>
         <p class="event received">Device is Ready</p>
+        <div><button onclick="navigator.geolocation.getCurrentPosition(onSuccess, onError)">get latitude/longitude</button></div>
       </div>
     </div>
     <script type="text/javascript" src="phonegap.js"></script>
@@ -63,7 +64,7 @@
         alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
       }
 
-      navigator.geolocation.getCurrentPosition(onSuccess, onError);
+      //navigator.geolocation.getCurrentPosition(onSuccess, onError);
     </script>
   </body>
 </html>
