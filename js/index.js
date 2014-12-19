@@ -37,7 +37,7 @@ var app = {
 
     var parentElement = document.getElementById('deviceready');
     var receivedElement = parentElement.querySelector('.received');
-    receivedElement.innerHTML = device.uuid;
+    receivedElement.innerHTML = 'deviceid->' + device.uuid + '<-deviceid';
   },
   // Update DOM on a Received Event
   receivedEvent: function(id) {
