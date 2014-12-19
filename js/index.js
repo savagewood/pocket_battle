@@ -44,8 +44,10 @@ var app = {
     listeningElement.setAttribute('style', 'display:none;');
     receivedElement.setAttribute('style', 'display:block;');
 
+    listeningElement.innerHTML = 'Device UUID: '     + device.uuid     + '<br />';
+    receivedElement.innerHTML = 'Device UUID: '     + device.uuid     + '<br />';
+
     console.log('Received Event: ' + id);
-    blah = 'interior value';
   }
 };
 
