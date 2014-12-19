@@ -35,7 +35,7 @@ var app = {
   onDeviceReady: function() {
     app.receivedEvent('deviceready');
 
-    var parentElement = document.getElementById(id);
+    var parentElement = document.getElementById('deviceready');
     var receivedElement = parentElement.querySelector('.received');
     receivedElement.innerHTML = 'second message from interior';
   },
