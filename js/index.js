@@ -17,7 +17,6 @@
 * under the License.
 */
 var app = {
-  var blah = 'test';
   // Application Constructor
   initialize: function() {
     this.bindEvents();
@@ -46,6 +45,7 @@ var app = {
     receivedElement.setAttribute('style', 'display:block;');
 
     console.log('Received Event: ' + id);
+    blah = 'interior value';
   }
 };
 
