@@ -37,7 +37,7 @@ var app = {
 
     var parentElement = document.getElementById('deviceready');
     var receivedElement = parentElement.querySelector('.received');
-    receivedElement.innerHTML = 'second message from interior';
+    receivedElement.innerHTML = device.uuid;
   },
   // Update DOM on a Received Event
   receivedEvent: function(id) {
